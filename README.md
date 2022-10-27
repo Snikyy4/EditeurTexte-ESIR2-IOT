@@ -37,6 +37,6 @@ Après avoir copier ou couper, le presse-papiers aura pour valeur la sélection 
 
 ## Version 2
 
-Dans cette nouvelle version, nous avons ajouté les fonctionnalités suivantes : revenir en arrière (ctrl-z) si l'utilistauer souhaite annuler ce qu'il vient de faire et retourner à l'étape d'après. 
+Dans cette nouvelle version, nous avons gardé toutes les fonctionnalités de la V1, cependant, on a ajouté les fonctionnalités suivantes : revenir en arrière si l'utilistauer souhaite annuler ce qu'il vient de faire ou alors retourner à l'étape d'après. 
 
 Pour se faire, nous commençons par ajouter dans la classe Buffer, des attributs qui vont permettre de gérer les états du fichier, c'est-à-dire permettre de savoir ce que contenait le buffer à un index précis. De ce fait, lorsque l'utilisateur veut retourner en arrière, on lui renvoie le buffer à l'état d'avant (si cela est possible) et s'il souhaite avancer, on lui renvoie le buffer à l'état d'après (si cela est possible). Danss l'interface on y ajoute deux boutons faisant référence au retour en arrière et à l'avancée. Enfin, on ajoute les deux commandes Précédent et Suivant qui implémentent ICommand.
