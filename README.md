@@ -9,7 +9,7 @@ déplacer le début et la fin de la sélection,
 - remplacement (« collage ») de la sélection par le contenu du presse-papier,
 - l’interface homme-machine est d’un type quelconque (textuelle ou graphique).
 
-##Version 1
+## Version 1
 
 Pour cette première version nous devons réaliser un éditeur de texte comprenant seulement les actions ci-dessus.
 
